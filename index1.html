@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-<title>Preyecto 5-J</title>
+<title>Proyecto 5-J</title>
 <link href="css.css" rel="stylesheet" type="text/css">
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -21,6 +21,11 @@ footer{
   color: white;
   font-family: Arial, Helvetica, sans-serif;
 }
+td{
+  background-color: rgb(122, 122, 122);
+  color: mediumblue;
+
+}
 </style>
 </head>
 <body class="w3-black">
@@ -30,10 +35,10 @@ footer{
       <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
         <i class="fa fa-bars"></i>
       </a>
-      <a href="#home" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Inicio</a>
-      <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Mision</a>
-      <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Vision</a>
-      <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Web Master</a>
+      <a href="index1.html" class="w3-bar-item w3-button"><i class="fa fa-user"></i> Inicio</a>
+      <a href="mision.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Mision</a>
+      <a href="vision.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> Vision</a>
+      <a href="webMaster.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> Web Master</a>
       <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
         <i class="fa fa-search"></i>
       </a>
@@ -51,7 +56,7 @@ footer{
   <!-- First Parallax Image with Logo Text -->
   <div class="bgimg-1 w3-display-container w3-opacity-min">
     <div class="w3-display-middle" style="white-space:nowrap;">
-      <span class="w3-center w3-padding-large w3-black w3-xlarge w3-wide w3-animate-opacity">MY <span class="w3-hide-small">WEBSITE</span> LOGO</span>
+ 
     </div>
   </div>
   
@@ -60,29 +65,49 @@ footer{
 
 <table>
   <tr>
-    <td class="td1">
-      
+    <td class="td1" >
+      <nav style="background-color:rgb(88, 88, 88) ;">
+          <a href="formulario1.html">Formulario Producto</a>
+          <a href="Tabla1.html">Tabla Producto</a>
+          <a href="formulario2.html">Formulario Cliente</a>
+          <a href="Tabla2.html">Tabla Cliente</a>
+          <a href="formulario3.html">Formulario Proveedor</a>
+          <a href="Tabla3.html">Tabla Proveedor</a>
+          <a href="formulario4.html">Formulario Empleados</a>
+          <a href="Tabla4.html">Tabla Empleados</a>
+          <a href="formulario5.html">Formulario Ventas</a>
+          <a href="Tabla5.html">Tabla Ventas</a>
+      </nav>
     </td>
-    <td class="td2"><center>
-      <label>assa</label>
-          <input type="text"></input>     
-      <label>assa</label>
-          <input type="text"></input><br><br>
-      <label>assa</label>
-          <input type="text"></input>
-      <label>assa</label>
-          <input type="text"></input> <br><br>        
-      <label>assa</label>
-          <input type="text"></input>      
-      <label>assa</label>
-          <input type="text"></input> <br><br> 
-      <label>assa</label>
-          <input type="text"></input>       
-      <label>assa</label>
-          <input type="text"></input><br>
-      <input type="button" class="button" value="Enviar"></center>
+    <td class="td2" ><center>
+      <br><label>Id:</label>
+      <br> <input type="text"></input><br>
+      <br><label>Nombre:</label>
+      <br><input type="text"></input><br>
+      <br><label>Descripcion:</label>
+      <br><input type="text"></input><br>
+      <br><label>Modelo:</label>
+      <br><input type="text"></input><br> 
+    </td>
+    <td class="td2">  
+      <center>     
+      <br><label>Materiales</label>
+      <br><input type="text"></input><br> 
+      <br><label>Porcion</label>
+      <br><input type="text"></input><br>
+      <br><label>Peso</label>
+      <br><input type="text"></input><br>      
+      <br><label>Presio</label>
+      <br><input type="text"></input><br>
+    </center> 
+          <td>
+            
+            <center><input type="button" class="button" value="Enviar"></center>
+          </td>
     </td>
   </tr>
+ 
+
 </table>
 
 <!--<footer>
